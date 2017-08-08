@@ -7,7 +7,7 @@ defineSupportCode(function({setDefaultTimeout, Given, When, Then}) {
 
   Given('user is on the Westpac currency converter page', function () {
     //Navigating to currency converter page from westpac homepage
-    this.driver.findElement({id: 'ubermenu-section-link-fx-travel-and-migrant-ps'}).click();
+    this.driver.executeScript("document.getElementById('ubermenu-section-link-fx-travel-and-migrant-ps').parentElement.className += ' active';")
     this.driver.findElement({id: 'ubermenu-item-cta-currency-converter-ps'}).click();
     this.driver.wait(until.elementLocated({css: '.pre-iframe-content'}));
     // All clickable element is within an iframe `westpac-iframe`
