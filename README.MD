@@ -4,8 +4,8 @@ Install Chrome
 Install Node.js (6 or higher)
 
 # Configure
-if using git do
-`git clone `
+if using git do using
+`git clone https://github.com/kinjalmore/currency-converter`
 
 or
 
