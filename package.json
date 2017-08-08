@@ -1,0 +1,17 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "this test",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": "https://github.com/kinjalmore/currency-converter.git",
+  "author": "kinjal more",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "chromedriver": "latest",
+    "cucumber": "latest",
+    "selenium-webdriver": "latest"
+  }
+}
